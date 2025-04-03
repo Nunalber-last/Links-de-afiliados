@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap');
+
+
 body {
     background: #001a14;
     background-image: linear-gradient(135deg, #2b252e, #001a14, #00251f, #003b2f, #431f51);
     color: #b0b0b0;
-    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-family: 'Rajdhani', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -23,7 +28,7 @@ body {
 
 @media (max-width: 768px) {
     .container {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -72,7 +77,7 @@ header:hover{
 
 .info-adicional {
     background: rgba(24, 24, 24, 0.95);;
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
     margin-top: -40px;
 }
@@ -86,6 +91,13 @@ header:hover{
     color: #D0D0D0;
 }
 
+.lista_contratos {
+    text-align: justify;
+}
+
+.contrato_valor{
+    color: rgb(53, 255, 87);
+}
 
 .img_stg_energy {
     width: 100%;
@@ -122,14 +134,14 @@ header:hover{
     gap: 25px; /* Aumenta o espaço entre a imagem e o botão */
     width: 100%;
     background: rgba(34, 30, 30, 0.95);
-    padding: 10px;
+    padding: 5px;
     border-radius: 8px;
 
 }
 
 .noticia_botao {
     color: rgb(202, 202, 202);
-    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-family: 'Rajdhani', sans-serif;
     text-decoration: none;
     font-weight: bold;
     border-radius: 6px;
@@ -172,3 +184,4 @@ header:hover{
         padding: 6px 10px;
     }
 }
+
