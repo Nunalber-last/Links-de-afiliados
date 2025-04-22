@@ -26,4 +26,3 @@ https://stgenergy-links.vercel.app
 ## Tecnologias utilizadas
 - HTML5
 - CSS3
-- JavaScript
